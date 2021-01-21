@@ -3,12 +3,10 @@ package ru.job4j.converter;
 public class Converter {
 
     public static int a(int a1){
-        int resoltEuro = a1/77;
-        return resoltEuro;
+            return a1/77;
     }
     public static int b(int b1){
-        int resoltDol = b1/60;
-        return resoltDol;
+                return b1/60;
     }
     public static void main(String[] args){
         int euro  = Converter.a(100);
